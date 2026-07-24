@@ -67,7 +67,7 @@ const (
 
 const (
 	auditEnqueueWait        = 25 * time.Millisecond
-	auditWriteTimeout       = 2 * time.Second
+	auditWriteTimeout       = 10 * time.Second
 	auditWriteAttempts      = 3
 	auditWriteRetryBase     = 250 * time.Millisecond
 	auditWriteRetryMax      = 5 * time.Second
