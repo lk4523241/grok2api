@@ -68,15 +68,6 @@ const (
 )
 
 const (
-<<<<<<< HEAD
-	auditEnqueueWait        = 25 * time.Millisecond
-	auditWriteTimeout       = 10 * time.Second
-	auditWriteAttempts      = 3
-	auditWriteRetryBase     = 250 * time.Millisecond
-	auditWriteRetryMax      = 5 * time.Second
-	auditDefaultCommitDelay = 5 * time.Millisecond
-	auditSummaryTTL         = 10 * time.Second
-=======
 	auditEnqueueWait         = 25 * time.Millisecond
 	auditWriteTimeout        = 10 * time.Second
 	auditWriteAttempts       = 3
@@ -91,7 +82,6 @@ const (
 	requestHeaderValuesLimit = 32
 	requestHeaderCountLimit  = 128
 	requestHeadersLimit      = 32 << 10
->>>>>>> upstream/main
 )
 
 type auditWriteRequest struct {
