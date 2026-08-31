@@ -1,0 +1,31 @@
+server:
+  listen: "0.0.0.0:8000"
+
+secrets:
+  jwtSecret: "xxxx"
+  credentialEncryptionKey: "xxxx"
+
+bootstrapAdmin:
+  username: "xxxxx"
+  password: "xxxx"
+
+frontend:
+  publicApiBaseURL: "https://grok2api-ak9o.onrender.com"
+
+database:
+  driver: postgres
+  postgres:
+    dsn: "xxxxx:5432/postgres"
+    maxOpenConns: 5
+    maxIdleConns: 2
+
+runtimeStore:
+  driver: memory
+
+auth:
+  secureCookies: true
+
+media:
+  driver: local
+  local:
+    path: "./data/media"
